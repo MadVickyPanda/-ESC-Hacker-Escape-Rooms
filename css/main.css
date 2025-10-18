@@ -7,10 +7,31 @@ header{
     font-family: "Roboto", sans-serif;
     font-style: bold;
 }
+
+.playOne {
+  border: none;
+  color:white;
+  background-color: #011827;
+}
+
+.playTwo {
+  border: none;
+  color:white;
+  background-color: #011827;
+}
+
+.story {
+  border: none;
+  color:white;
+  background-color: #011827;
+}
+
+.contact {
+  border: none;
+  color:white;
+  background-color: #011827;
+}
+
 .checked {
   color: rgb(255, 0, 0);
 }
-
-
-
-
