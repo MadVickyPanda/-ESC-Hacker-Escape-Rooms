@@ -196,7 +196,19 @@ header {
   font-weight: 700;
 
 }
+.reviews {
+  display: flex;
+  
+}
 
+.reviewOne{
+  display:flex;
+  flex-direction: row;
+}
+.name {
+  display: flex;
+  
+}
 .mobileOnline {
   display: block;
   /* Show by default on mobile */
