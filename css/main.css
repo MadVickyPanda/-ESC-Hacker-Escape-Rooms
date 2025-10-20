@@ -1,92 +1,17 @@
 body {
   width: 1280px;
- text-align: center;
- margin:auto;
+  text-align: center;
+  margin: auto;
 }
 
-@media only screen and (max-width: 600px) {
-  
-  header {
-    grid-area: 1 / span 6;
-    margin: 0px;
-    height: 144px;
-  }
 
-  .playOne,
-  .playTwo,
-  .story,
-  .contact {
-    display: none;
-  }
-
-  .btn {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    
-    
-  }
-
-  .onsiteBtn {
-    display: none;
-    
-  }
-  .mobileOnsite{
-    position: absolute;
-    background-color: #8ACFE5;
-    border-radius: 5px;
-    font-size: 30px;
-    font-weight: 700;
-    top: 50px;
-    left: -150px;
-    width: 750px;
-    height: 100px;
-    border: none;
-    text-decoration: underline;
-  }
+@media (min-width: 601px) {
   .mobileOnline {
-    color: #36769D;
-    background-color: white;
-    position: absolute;
-    font-size: 16px;
-    font-weight: 700;
-    top: 180px;
-    width: 308px;
-    height: 30pxx;
-    border: none;
-    text-decoration: underline;
-  }
-
-  .onlineBtn {
     display: none;
+    /* Hide on screens 600px and above */
   }
 
-  .headFlex {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .head {
-    font-size: 24px;
-    font-style: bold;
-    font-weight: 700;
-    width: 78px;
-    height: 84px;
-    margin-top: 26px;
-    margin-left: 15px;
-  }
-
-  .reviewOne {
-    /*Lägg centrerad på sidan*/
-    padding-top: 200px;
-    padding-left: 150px;
-
-  }
-
-  .reviewTwo {
-    display: none;
-  }
-}
+  
 
 .logo {
   /*Loggo samma storlek och margin i desktop och mobile */
@@ -101,7 +26,7 @@ header {
   background-color: #011827;
   font-family: "Roboto", sans-serif;
   width: 1280px;
-  height: 216px;
+  height: 220px;
 }
 
 .headFlex {
@@ -121,19 +46,18 @@ header {
   margin-left: 15px;
   margin-top: 61px;
 }
-
 .menu {
   display: flex;
   align-items: flex-end;
-  margin-top: 60px;
+  margin-bottom: 30px;
 }
-
 .playOne {
   font-style: "Roboto", sans-serif;
   font-style: bold;
-  font-size: 24px;
+  font-size: 25px;
   font-weight: 700;
   margin-left: 215px;
+  margin-top: 60px;
   border: none;
   background-color: #011827;
   color: white;
@@ -142,9 +66,9 @@ header {
 .playTwo {
   font-style: "Roboto", sans-serif;
   font-style: bold;
-  font-size: 24px;
+  font-size: 25px;
   font-weight: 700;
-
+  margin-top: 60px;
   margin-left: 100px;
   border: none;
   background-color: #011827;
@@ -154,9 +78,9 @@ header {
 .story {
   font-style: "Roboto", sans-serif;
   font-style: bold;
-  font-size: 24px;
+  font-size: 25px;
   font-weight: 700;
-
+  margin-top: 60px;
   margin-left: 100px;
   border: none;
   background-color: #011827;
@@ -166,38 +90,27 @@ header {
 .contact {
   font-style: "Roboto", sans-serif;
   font-style: bold;
-  font-size: 24px;
+  font-size: 25px;
   font-weight: 700;
   margin-left: 100px;
   margin-right: auto;
+  margin-top: 60px;
   border: none;
   background-color: #011827;
   color: white;
 }
-
-.playOne:hover,
-.playTwo:hover,
-.story:hover,
-.contact:hover {
-  color: #8ACFE5;
-}
-
-.headPic {
-  position: relative;
-  max-width: 100%;
-  margin: 0px;
-}
-
-.btn {
-  position: absolute;
-  bottom: -25px;
-  left: 323px;
-  display: flex;
-  gap: 15px;
-  z-index: 10;
-}
+.btnList {
+    list-style: none;
+    list-style-type: none;
+    margin-left: 25%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    margin-top: -40px;
+  }
 
 .onlineBtn {
+  display: block;
   width: 308px;
   height: 66px;
   border: none;
@@ -207,9 +120,11 @@ header {
   font-style: "Roboto", sans-serif;
   font-size: 22px;
   font-weight: 700;
+  margin-right: 20px;
 }
 
 .onsiteBtn {
+  display: block;
   width: 308px;
   height: 66px;
   border: none;
@@ -220,12 +135,16 @@ header {
   font-weight: 700;
 }
 
+
+.userImg {
+  float: left;
+}
 .reviews {
   display: flex;
 }
 
 .reviewOne {
-  float: right;
+  float: left;
   font-style: "Roboto", sans-serif;
   font-size: 24px;
   font-style: italic;
@@ -238,7 +157,20 @@ header {
 
 .reviewTwo {
   float: right;
-  float: right;
+  font-style: "Roboto", sans-serif;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 400;
+  margin-right: 50px;
+  margin-left: 20px;
+  margin-top: 70px;
+  width: 522px;
+  height: 139px;
+}
+
+
+.reviewTwo {
+  flex-direction: row;
   font-style: "Roboto", sans-serif;
   font-size: 24px;
   font-style: italic;
@@ -261,18 +193,4 @@ header {
 .userImg {
   float: left;
 }
-
-.mobileOnline {
-  display: block;
-  /* Show by default on mobile */
-}
-
-@media (min-width: 600px) {
-  .mobileOnline {
-    display: none;
-    /* Hide on screens 600px and above */
-  }
-  .mobileOnsite {
-    display:none;
-  }
 }

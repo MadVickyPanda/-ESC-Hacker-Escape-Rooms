@@ -1,0 +1,180 @@
+@media only screen and (max-width: 600px) {
+
+    header {
+        grid-area: 1 / span 6;
+        background-color: #011827;
+        font-family: "Roboto", sans-serif;
+        width: 100%;
+        height: 216px;
+    }
+
+    .headFlex {
+        display: flex;
+        flex-direction: row;
+        padding-top: 30px;
+    }
+
+
+    .head {
+        display: flex;
+        color: white;
+        font-family: "Roboto", sans-serif;
+        font-style: bold;
+        font-size: 40px;
+        font-style: bold;
+        font-weight: 700;
+        align-items: last baseline;
+        margin-left: 15px;
+        margin-top: 10px;
+        width: 110px;
+    }
+
+    .logo {
+        /*Loggo samma storlek och margin i desktop och mobile */
+        width: 200px;
+        height: 140px;
+        margin-top: 20px;
+        margin-left: 27px;
+
+    }
+
+    .playOne,
+    .playTwo,
+    .story,
+    .contact {
+        display: none;
+    }
+
+    .onlineBtn {
+        display: none;
+    }
+
+    .btnList {
+        list-style: none;
+    }
+
+    .mobileOnline {
+        display: inline block;
+        list-style: none;
+        color: #36769D;
+        background-color: white;
+        font-size: 24px;
+        font-weight: 700;
+        top: 180px;
+        width: 308px;
+        height: 30px;
+        border: none;
+        text-decoration: underline;
+    }
+
+    .onsiteBtn {
+        background-color: #8ACFE5;
+        border-radius: 5px;
+        font-size: 30px;
+        font-weight: 700;
+        width: 80%;
+        height: 100px;
+        margin-bottom: 50px;
+        border: none;
+
+    }
+
+    .userImg {
+        float: left;
+    }
+
+    .reviewOne {
+        padding-left: 300px;
+        font-style: "Roboto", sans-serif;
+        font-size: 24px;
+        font-style: italic;
+        font-weight: 400;
+        margin-left: 80px;
+        margin-top: 70px;
+        width: 522px;
+        height: 139px;
+    }
+
+    .reviewTwo {
+        display: none;
+    }
+
+    .name {
+        font-style: "Roboto", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        margin-left: 80px;
+    }
+
+    .popular {
+        font-style: "Roboto", sans-serif;
+        font-style: bold;
+        font-weight: 400;
+        font-size: 45px;
+        margin-left: 80px;
+    }
+
+    .imageCard {
+        width: 100%;
+        height: auto;
+    }
+
+    .card {
+
+        width: 750px;
+        border-radius: 15px;
+        overflow: hidden;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.233);
+        font-family: "Roboto", sans-serif;
+        background-color: white;
+        border: #011827;
+        margin-left: 20%;
+    }
+
+    .roomTitle {
+        font-family: "Roboto" sans-serif;
+        font-size: 50px;
+        text-align: left;
+        margin-left: 10px;
+        font-weight: 400;
+    }
+
+    .star {
+        float: left;
+        margin-left: 10px;
+        margin-top: -50px;
+    }
+
+    .participants {
+        font-family: "Roboto" sans-serif;
+        font-size: 20px;
+        margin-left: -270px;
+        font-weight: 400;
+        margin-top: -50px;
+    }
+    .roomInfoOne {
+        font-family: "Roboto" sans-serif;
+        font-size: 30px;
+        text-align: center;
+        font-weight: 400;
+    }
+
+    .bookOne {
+      float: right;
+      width: 300px;
+      height: 90px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+      background-color: #E3170A;
+      color: white;
+      border: none;
+      padding: 12px;
+      font-size: 24px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+
+}
