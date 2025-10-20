@@ -3,6 +3,7 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+  
   header {
     grid-area: 1 / span 6;
     margin: 0px;
@@ -19,12 +20,15 @@ body {
   .btn {
     display: flex;
     align-items: center;
+    text-align: center;
     justify-content: space-between;
+    
   }
 
   .onsiteBtn {
     position: absolute;
     top: 66px;
+    
   }
 
   .mobileOnline {
