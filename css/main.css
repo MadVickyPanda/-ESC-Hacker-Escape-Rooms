@@ -58,7 +58,13 @@ body {
     margin-left: 15px;
   }
 
-  
+  .reviewOne {
+    /*Lägg centrerad på sidan*/
+    padding-top: 200px;
+    padding-left: 100px;
+
+  }
+
   .reviewTwo {
     display: none;
   }
@@ -194,21 +200,50 @@ header {
   font-style: "Roboto", sans-serif;
   font-size: 22px;
   font-weight: 700;
-
 }
+
 .reviews {
   display: flex;
-  
 }
 
-.reviewOne{
-  display:flex;
-  flex-direction: row;
+.reviewOne {
+  float: right;
+  font-style: "Roboto", sans-serif;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 400;
+  margin-left: 80px;
+  margin-top: 70px;
+  width: 522px;
+  height: 139px;
 }
+
+.reviewTwo {
+  float: right;
+  float: right;
+  font-style: "Roboto", sans-serif;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 400;
+  margin-right: 50px;
+  margin-left: 20px;
+  margin-top: 70px;
+  width: 522px;
+  height: 139px;
+}
+
 .name {
-  display: flex;
-  
+  font-style: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  margin-left: 80px;
 }
+
+.userImg {
+  float: left;
+}
+
 .mobileOnline {
   display: block;
   /* Show by default on mobile */
