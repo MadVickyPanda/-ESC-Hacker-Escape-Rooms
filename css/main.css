@@ -48,14 +48,15 @@ body {
     display: flex;
     align-items: flex-end;
     margin-bottom: 30px;
-
   }
- .playOne:hover, 
- .playTwo:hover,
- .story:hover,
- .contact:hover{
-  color: #8ACFE5;
- }
+
+  .playOne:hover,
+  .playTwo:hover,
+  .story:hover,
+  .contact:hover {
+    color: #8ACFE5;
+  }
+
   .playOne {
     font-family: "Roboto", sans-serif;
     font-style: bold;
