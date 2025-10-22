@@ -14,7 +14,6 @@
         padding-top: 30px;
     }
 
-
     .head {
         display: flex;
         color: white;
@@ -130,43 +129,47 @@
         margin-right: 10%;
         width: auto;
         gap: 50px;
-        font-family: "Roboto", sans-serif;  
+        font-family: "Roboto", sans-serif;
     }
-     .card {
-    display: flex;
-    flex-direction: column;
-    width: 700px;
-    border-radius: 15px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.233);
-    font-family: "Roboto", sans-serif;
-    background-color: white;
-    border: #011827;
-  }
-  .cardTwo {
 
-    display: flex;
-    flex-direction: column;
-    width: 700px;
-    border-radius: 15px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.233);
-    font-family: "Roboto", sans-serif;
-    background-color: white;
-    border: #011827;
-    margin-left: 20px;
-  }
+    .card {
+        display: flex;
+        flex-direction: column;
+        width: 700px;
+        border-radius: 15px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.233);
+        font-family: "Roboto", sans-serif;
+        background-color: white;
+        border: #011827;
+        margin-bottom: 20px;
+    }
+
+    .cardTwo {
+        display: flex;
+        flex-direction: column;
+        width: 700px;
+        border-radius: 15px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.233);
+        font-family: "Roboto", sans-serif;
+        background-color: white;
+        border: #011827;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
 
     .cardThree {
+        display: flex;
+        flex-direction: column;
+        width: 700px;
+        border-radius: 15px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.233);
+        font-family: "Roboto", sans-serif;
+        background-color: white;
+        border: #011827;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
 
-    display: flex;
-    flex-direction: column;
-    width: 700px;
-    border-radius: 15px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.233);
-    font-family: "Roboto", sans-serif;
-    background-color: white;
-    border: #011827;
-    margin-left: 20px;
-  }
     .roomTitle {
         font-family: "Roboto" sans-serif;
         font-size: 50px;
@@ -357,80 +360,78 @@
     }
 
     footer {
-    display: flex;
-    flex-direction: column;
-    margin-top: 400px;
-    background-color: #011827;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    width: auto;
-    height: auto;
-    padding-left: 40px;
-  }
+        display: flex;
+        flex-direction: column;
+        margin-top: 400px;
+        background-color: #011827;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        width: auto;
+        height: auto;
+        padding-left: 40px;
+    }
 
-  .footerHead {
-    color: white;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 28px;
-    margin-left: -900px;
-    
-  }
-   .footerText {
-    color: white;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 28px;
-    width: 700px;
-    text-align: left;
-    
-  }
+    .footerHead {
+        color: white;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 28px;
+        margin-left: -900px;
+    }
 
-  .siteMap {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    color:white; 
-    text-align: left;
-    
-  }
- 
-  .siteMapHead{
-    color: white;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 28px;
-    
-    
-  }
-    .siteList{
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 28px;
-    list-style: none;
-    text-align: left;
-    margin-left: -30px;
-    
-  }
-   .socials {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    display: block;
-    color:white; 
-    text-align: left;
-  }
-  .socialHead{
-    color: white;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 28px;
-    
-  }
-  .socialList{
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 28px;
-    list-style: none;
-    text-align: left;
-    margin-left: -30px;
-  }
+    .footerText {
+        color: white;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 28px;
+        width: 700px;
+        text-align: left;
+    }
+
+    .siteMap {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        color: white;
+        text-align: left;
+    }
+
+    .siteMapHead {
+        color: white;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 28px;
+    }
+
+    .siteList {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 28px;
+        list-style: none;
+        text-align: left;
+        margin-left: -30px;
+    }
+
+    .socials {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        display: block;
+        color: white;
+        text-align: left;
+    }
+
+    .socialHead {
+        color: white;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 28px;
+    }
+
+    .socialList {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 28px;
+        list-style: none;
+        text-align: left;
+        margin-left: -30px;
+    }
 }

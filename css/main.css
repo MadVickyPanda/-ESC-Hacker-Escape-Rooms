@@ -4,7 +4,6 @@ body {
   margin: auto;
 }
 
-
 @media (min-width: 601px) {
 
   .mobileOnline,
@@ -12,8 +11,6 @@ body {
     display: none;
     /* Hide on screens 600px and above */
   }
-
-
 
   .logo {
     /*Loggo samma storlek och margin i desktop och mobile */
@@ -43,9 +40,9 @@ body {
     font-style: bold;
     font-size: 40px;
     font-weight: 700;
-    align-items: last baseline;
     margin-left: 15px;
-    margin-top: 61px;
+    margin-top: 50px;
+    margin-bottom: -15px;
   }
 
   .menu {
@@ -139,7 +136,6 @@ body {
     font-weight: 700;
   }
 
-
   .userImg {
     float: left;
   }
@@ -172,7 +168,6 @@ body {
     width: 522px;
     height: 139px;
   }
-
 
   .reviewTwo {
     flex-direction: row;
@@ -218,6 +213,7 @@ body {
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
+
   }
 
   .card {
@@ -229,10 +225,10 @@ body {
     font-family: "Roboto", sans-serif;
     background-color: white;
     border: #011827;
+    margin-bottom: 20px;
   }
 
   .cardTwo {
-
     display: flex;
     flex-direction: column;
     width: 400px;
@@ -242,10 +238,10 @@ body {
     background-color: white;
     border: #011827;
     margin-left: 20px;
+    margin-bottom: 20px;
   }
 
   .cardThree {
-
     display: flex;
     flex-direction: column;
     width: 400px;
@@ -255,6 +251,7 @@ body {
     background-color: white;
     border: #011827;
     margin-left: 20px;
+    margin-bottom: 20px;
   }
 
   .roomTitle {
@@ -288,7 +285,6 @@ body {
     font-weight: 400;
     margin-left: 10px;
     padding: 20px;
-    
   }
 
   .book {
@@ -371,7 +367,6 @@ body {
     font-weight: 700;
   }
 
-
   .bookingImg {
     float: left
   }
@@ -450,7 +445,6 @@ body {
     font-weight: 700;
     margin-left: 150px;
     margin-bottom: 50px;
-
   }
 
   footer {
@@ -462,17 +456,18 @@ body {
     width: 1280px;
     height: 467px;
   }
-  .footerAbout{
+
+  .footerAbout {
     display: block;
-    
+
   }
+
   .footerHead {
     color: white;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 18px;
     padding-top: 150px;
-    
   }
 
   .footerText {
@@ -490,12 +485,12 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     display: block;
-    color:white; 
+    color: white;
     text-align: left;
     margin-left: 300px;
   }
- 
-  .siteMapHead{
+
+  .siteMapHead {
     display: flex;
     color: white;
     font-family: "Roboto", sans-serif;
@@ -503,24 +498,26 @@ body {
     font-size: 18px;
     padding-left: 40px;
     padding-top: 150px;
-    
   }
-  .siteList{
+
+  .siteList {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     list-style: none;
     text-align: left;
     margin-top: -10px;
   }
-   .socials {
+
+  .socials {
     display: flex;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     display: block;
-    color:white; 
+    color: white;
     text-align: left;
   }
-  .socialHead{
+
+  .socialHead {
     display: flex;
     color: white;
     font-family: "Roboto", sans-serif;
@@ -529,7 +526,8 @@ body {
     padding-left: 140px;
     padding-top: 150px;
   }
-  .socialList{
+
+  .socialList {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     list-style: none;
