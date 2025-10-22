@@ -188,7 +188,7 @@
         transition: background-color 0.3s;
     }
 
-    .btnTwo{
+    .btnTwo {
         list-style: none;
     }
 
@@ -217,11 +217,12 @@
         border: none;
         margin-top: 20px;
     }
+
     .onlineBtnTwo {
         display: none;
     }
 
-    .about{
+    .about {
         background-color: #011827;
         color: white;
         height: 800px;
@@ -234,14 +235,98 @@
         padding-left: 40px;
         padding-right: 40px;
     }
-    .aboutBtn{
-         border-color: #8ACFE5;
+
+    .aboutBtn {
+        border-color: #8ACFE5;
         color: #8ACFE5;
         background-color: #011827;
-        margin-top:55px;
+        margin-top: 55px;
         width: 500px;
         height: 150px;
         border-radius: 5px;
         font-size: 50px;
+    }
+
+    .bookingImg {
+        width: 100%;
+        height: auto;
+    }
+
+    .bookingHead {
+        display: flex;
+        text-align: left;
+        font-size: 50px;
+        font-family: "Roboto" sans-serif;
+        font-weight: 700;
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    .bookingText {
+        display: flex;
+        text-align: left;
+        font-family: "Roboto" sans-serif;
+        font-weight: 400;
+        font-size: 30px;
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    .bookingBtn {
+        display: block;
+        align-items: center;
+        width: 308px;
+        height: 66px;
+        border: none;
+        background-color: #E3170A;
+        color: white;
+        border-radius: 5px;
+        font-style: "Roboto", sans-serif;
+        font-size: 22px;
+        font-weight: 700;
+        margin-left: 150px;
+        margin-bottom: 50px;
+    }
+
+    .challengesImg {
+        display: flex;
+        width: 100%;
+        height: auto;
+    }
+
+    .challengesHead {
+        display: flex;
+        text-align: left;
+        font-size: 50px;
+        font-family: "Roboto" sans-serif;
+        font-weight: 700;
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    .challengesText {
+        display: flex;
+        text-align: left;
+        font-family: "Roboto" sans-serif;
+        font-weight: 400;
+        font-size: 30px;
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    .challengesBtn {
+        display: block;
+        align-items: center;
+        width: 308px;
+        height: 66px;
+        border: none;
+        background-color: #E3170A;
+        color: white;
+        border-radius: 5px;
+        font-style: "Roboto", sans-serif;
+        font-size: 22px;
+        font-weight: 700;
+        margin-left: 150px;
+        margin-bottom: 50px;
     }
 }
