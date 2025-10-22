@@ -9,7 +9,6 @@ body {
   .mobileOnline,
   .mobileOnlineTwo {
     display: none;
-    /* Hide on screens 600px and above */
   }
 
   .logo {
